@@ -1,0 +1,50 @@
+CREATE TABLE person
+(
+OID Integer PRIMARY KEY AUTO_INCREMENT,
+p_name varchar(255) NOT NULL,
+Address varchar(255),
+City varchar(255)
+
+);
+
+CREATE Table people
+(
+
+CID integer PRIMARY KEY AUTO_INCREMENT,
+name varchar(255) NOT NULL,
+Address varchar(255),
+City varchar(255),
+Age varchar(5),
+job varchar(5),
+phonenumber varchar(20),
+salary varchar(5),
+gender varchar(2)
+
+);
+
+CREATE Table request
+(
+
+OID integer,
+CID integer,
+ 
+FOREIGN KEY (OID) REFERENCES person(OID),
+
+FOREIGN KEY (CID) REFERENCES people(CID)
+
+);
+
+CREATE Table ownerreg
+(
+
+oname varchar(15),
+password varchar(15)
+
+);
+CREATE Table sllerreg
+(
+oname varchar(15),
+password varchar(15)
+
+);
+

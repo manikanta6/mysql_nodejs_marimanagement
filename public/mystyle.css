@@ -1,0 +1,53 @@
+.navta{
+	background-color:#e91e63;
+}
+.form{
+	color: black;
+}
+.foot{
+	background-color:#bdbdbd;
+	margin-bottom:10px;
+	margin-top: -20px;
+	
+}
+.color{
+	color:yellow;
+}
+.colorin{
+	color:#4B515D;
+}
+.tra{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+.color{
+	color: blue;
+}
+
+.color2{
+	background-color: #e3f2fd;
+}
+
+.no-margin{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.nomargin1{
+	
+	margin-bottom: 0px;
+}
+.no-padding{
+	padding: 0px;
+}
+.margin{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+ 
+ .marginr{
+ 	margin-right: 425px;
+}
+.padding{
+	padding:50px;
+}
